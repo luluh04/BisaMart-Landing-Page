@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bantuan | BisaMart</title>
+  
+<!-- Tailwind -->
+    <link href="./output.css" rel="stylesheet">
+
+  <!-- Import Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;800&display=swap" rel="stylesheet">
+  
+</head>
+<body class="font-sans bg-white">
+<!-- start nav -->
+  <nav class="flex items-center max-w-full mx-auto py-2 px-20 font-poppins bg-blue-600 text-white">
+    <!-- Logo + Text -->
+  <div class="flex items-center space-x-2">
+    <img src="assets/bisamart2.png" alt="Logo BisaMart" class="w-10 h-12">
+    <span class="text-2xl font-bold text-black-600 relative top-1 -left-1">BisaMart</span>
+  </div>
+    <ul class="flex space-x-6 ml-[450px]">
+  <!-- Aktif -->
+  <li>
+    <a href="index.html" class="text-white hover:text-blue-600">
+      Beranda
+    </a>
+  </li>
+
+  <!-- Tidak aktif -->
+   <!-- Dropdown Gabung Jadi Mitra -->
+  <li class="relative group">
+    <button class="flex items-center text-white hover:text-blue-600 focus:outline-none">
+      Gabung Jadi Mitra
+      <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" stroke-width="2" viewBox="0 0 24 24">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M19 9l-7 7-7-7"/>
+      </svg>
+    </button>
+
+    <!-- Dropdown isi -->
+    <ul class="absolute hidden group-hover:block bg-white shadow-lg rounded mt-2 py-2 w-40">
+      <li>
+        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Driver</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Merchant</a>
+      </li>
+      <li>
+        <a href="#" class="block px-4 py-2 text-gray-700 hover:bg-gray-100">Partner Lain</a>
+      </li>
+    </ul>
+  </li>
+   <li>
+    <a href="promo.html" class="text-white hover:text-blue-600">
+      Promo
+    </a>
+  </li>
+  <li>
+    <a href="bantuan.html" class="text-white font-bold hover:text-blue-600">
+      Bantuan
+    </a>
+  </li>
+</ul>
+  </nav>
+<!-- end nav -->
+
+<!-- Hero Promo -->
+ <!-- bagian1 -->
+<!-- Hero Section -->
+  <section class="bg-blue-600 text-white py-36">
+    <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
+      
+      <!-- Gambar kiri -->
+      <div class="w-full md:w-1/4 flex justify-center mb-8 md:mb-0">
+        <img src="assets/bantuan1.png" alt="Ilustrasi kiri" class="h-48 md:absolute md:top-60">
+      </div>
+      
+      <!-- Teks tengah -->
+      <div class="w-full md:w-2/4 text-center">
+        <h1 class="text-3xl md:text-5xl font-extrabold">"Apakah kamu butuh bantuan?"</h1>
+      </div>
+      
+      <!-- Gambar kanan -->
+      <div class="w-full md:w-1/4 flex justify-center mt-8 md:mt-0">
+        <img src="assets/bantuan2.png" alt="Ilustrasi kanan" class="h-48 md:absolute md:top-60">
+      </div>
+    </div>
+  </section>
+  
+<!-- end bagian 1 -->
+
+<!-- Bagian 2 Promo -->
+<section class="py-16 bg-gray-50">
+  <div class="max-w-6xl mx-auto px-6 text-center">
+    <h2 class="text-3xl md:text-4xl font-bold mb-12 text-gray-800">
+      Panduan Bantuan
+    </h2>
+
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+      
+      <!-- Card 1 -->
+      <div class="bg-white shadow-md rounded-xs p-8 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Mendaftar sebagai Merchant
+        </h3>
+        <p class="text-gray-600">
+          Kunjungi website resmi kami. Pilih navigasi "Gabung jadi Mitra" dan klik tombol "Gabung sekarang" pada bagian MERCHANT PARTNER.
+        </p>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="bg-white shadow-md rounded-xs p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Mendaftar sebagai Driver
+        </h3>
+        <p class="text-gray-600">
+          Kunjungi website resmi kami. Pilih navigasi "Gabung jadi Mitra" dan klik tombol "Gabung sekarang" pada bagian DRIVER PARTNER.
+        </p>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="bg-white shadow-md rounded-xs p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Memasukkan Produk di BisaMart
+        </h3>
+        <p class="text-gray-600">
+          Unduh aplikasi Bisamart dari Google Play Store atau App Store. Login ke akun anda. Jika belum memiliki akun, daftar terlebih dahulu. Lalu anda bisa belanja sepuasnya!.
+        </p>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="bg-white shadow-md rounded-xs p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Mendapatkan Promo Belanja
+        </h3>
+        <p class="text-gray-600">
+          Buka aplikasi Bisamart, pilih bagian "Promo" pada halaman beranda dan dapatkan promo seperti diskon, cashback, atau gratis ongkir.
+        </p>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="bg-white shadow-md rounded-xs p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Mengaktifkan Promo di BisaMart
+        </h3>
+        <p class="text-gray-600">
+          Kunjungi halaman "Promo", catat kode promo yang ingin digunakan. Saat checkout, temukan kolom "Kode Promo". Masukkan kode promo dan kik "Terapkan".
+        </p>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="bg-white shadow-md rounded-xs p-6 hover:shadow-lg transition">
+        <h3 class="text-xl font-semibold mb-3 text-gray-800">
+          Cara Memberikan Ulasan Produk
+        </h3>
+        <p class="text-gray-600">
+          Login ke akun anda. Klik "Pesanan Saya" untuk melihat daftar pesanan yang telah selesai. Klik produk dari pesanan yang sudah anda terima. Tulis ulasan anda pada kolom tersedia.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<!-- end bagian 2 -->
+
+<!-- bagian 3 -->
+ <section class="py-16 bg-white">
+  <div class="max-w-6xl mx-auto px-6 flex flex-col md:flex-row items-center gap-10">
+    
+    <!-- Gambar FAQ -->
+    <div class="w-full md:w-1/2 flex justify-center">
+      <img src="assets/bantuan3.png" alt="FAQ Illustration" class="w-3/4 md:w-full max-w-md">
+    </div>
+
+    <!-- FAQ Content -->
+    <div class="w-full md:w-1/2 space-y-4">
+
+      <!-- Accordion 1 -->
+      <div class="bg-white rounded-4xl shadow-lg overflow-hidden border border-gray-300 transition-all duration-300">
+        <button 
+          class="w-full flex justify-between items-center px-6 py-4 text-left font-semibold text-gray-800 focus:outline-none hover:bg-gray-50 transition" 
+          onclick="toggleAccordion(1)">
+          About Merchant Partner
+          <span id="icon1" class="w-7 h-7 flex items-center justify-center bg-blue-600 text-white rounded-full text-lg font-bold">+</span>
+        </button>
+
+        <div id="content1" class="px-6 pb-4 text-gray-600 hidden transition-all duration-300 ease-in-out">
+          <div class="border-t border-gray-200 pt-3 space-y-2">
+            <div>
+              <button onclick="toggleFaq(1,1)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Apakah ada biaya pendaftaran atau komisi?
+                <span id="faqIcon1_1" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer1_1" class="hidden text-gray-600 mt-2">
+                Tidak, pendaftaran sebagai mitra merchant gratis. Komisi hanya berlaku pada transaksi tertentu.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(1,2)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Produk atau layanan apa saja yang bisa dijual?
+                <span id="faqIcon1_2" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer1_2" class="hidden text-gray-600 mt-2">
+                Anda dapat menjual berbagai produk fisik dan layanan sesuai kategori di platform BisaMart.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(1,3)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Bagaimana cara mengelola pesanan?
+                <span id="faqIcon1_3" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer1_3" class="hidden text-gray-600 mt-2">
+                Anda dapat memantau dan mengelola pesanan melalui dashboard mitra BisaMart secara real-time.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 2 -->
+      <div class="bg-white rounded-4xl shadow-lg overflow-hidden border border-gray-300 transition-all duration-300">
+        <button 
+          class="w-full flex justify-between items-center px-6 py-4 text-left font-semibold text-gray-800 focus:outline-none hover:bg-gray-50 transition" 
+          onclick="toggleAccordion(2)">
+          About Driver Partner
+          <span id="icon2" class="w-7 h-7 flex items-center justify-center bg-blue-600 text-white rounded-full text-lg font-bold">+</span>
+        </button>
+
+        <div id="content2" class="px-6 pb-4 text-gray-600 hidden transition-all duration-300 ease-in-out">
+          <div class="border-t border-gray-200 pt-3 space-y-2">
+            <div>
+              <button onclick="toggleFaq(2,1)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Bagaimana cara bergabung menjadi driver?
+                <span id="faqIcon2_1" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer2_1" class="hidden text-gray-600 mt-2">
+                Anda bisa mendaftar melalui website BisaMart dan melengkapi data yang dibutuhkan.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(2,2)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Apakah ada sistem insentif?
+                <span id="faqIcon2_2" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer2_2" class="hidden text-gray-600 mt-2">
+                Ya, terdapat sistem bonus dan insentif berdasarkan performa dan jumlah pesanan.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(2,3)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Bagaimana pembagian hasilnya?
+                <span id="faqIcon2_3" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer2_3" class="hidden text-gray-600 mt-2">
+                Pembagian hasil dilakukan otomatis setiap minggu sesuai ketentuan sistem BisaMart.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Accordion 3 -->
+      <div class="bg-white rounded-4xl shadow-lg overflow-hidden border border-gray-300 transition-all duration-300">
+        <button 
+          class="w-full flex justify-between items-center px-6 py-4 text-left font-semibold text-gray-800 focus:outline-none hover:bg-gray-50 transition" 
+          onclick="toggleAccordion(3)">
+          About BisaMart
+          <span id="icon3" class="w-7 h-7 flex items-center justify-center bg-blue-600 text-white rounded-full text-lg font-bold">+</span>
+        </button>
+
+        <div id="content3" class="px-6 pb-4 text-gray-600 hidden transition-all duration-300 ease-in-out">
+          <div class="border-t border-gray-200 pt-3 space-y-2">
+            <div>
+              <button onclick="toggleFaq(3,1)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Apa itu BisaMart?
+                <span id="faqIcon3_1" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer3_1" class="hidden text-gray-600 mt-2">
+                BisaMart adalah platform digital yang menghubungkan merchant, driver, dan pelanggan dalam satu ekosistem.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(3,2)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Bagaimana cara kerja platform ini?
+                <span id="faqIcon3_2" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer3_2" class="hidden text-gray-600 mt-2">
+                Sistem kami memudahkan transaksi antara mitra dan pelanggan melalui aplikasi dan website.
+              </p>
+            </div>
+
+            <div>
+              <button onclick="toggleFaq(3,3)" class="w-full flex justify-between items-center font-medium text-gray-800 focus:outline-none hover:text-blue-600">
+                Siapa saja yang dapat menggunakan layanan BisaMart?
+                <span id="faqIcon3_3" class="text-blue-600 font-bold">+</span>
+              </button>
+              <p id="faqAnswer3_3" class="hidden text-gray-600 mt-2">
+                Layanan BisaMart dapat digunakan oleh siapa pun yang ingin bergabung menjadi mitra atau pelanggan.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+<!-- Script -->
+<script>
+function toggleAccordion(index) {
+  const content = document.getElementById(`content${index}`);
+  const icon = document.getElementById(`icon${index}`);
+  const isHidden = content.classList.contains('hidden');
+
+  // Tutup semua accordion lain
+  for (let i = 1; i <= 3; i++) {
+    document.getElementById(`content${i}`).classList.add('hidden');
+    document.getElementById(`icon${i}`).textContent = '+';
+  }
+
+  // Buka accordion yang diklik
+  if (isHidden) {
+    content.classList.remove('hidden');
+    icon.textContent = '×';
+  }
+}
+
+function toggleFaq(accIndex, faqIndex) {
+  const answer = document.getElementById(`faqAnswer${accIndex}_${faqIndex}`);
+  const icon = document.getElementById(`faqIcon${accIndex}_${faqIndex}`);
+  const isHidden = answer.classList.contains('hidden');
+
+  // Tutup semua dalam accordion itu
+  for (let i = 1; i <= 3; i++) {
+    document.getElementById(`faqAnswer${accIndex}_${i}`).classList.add('hidden');
+    document.getElementById(`faqIcon${accIndex}_${i}`).textContent = '+';
+  }
+
+  // Buka yang diklik
+  if (isHidden) {
+    answer.classList.remove('hidden');
+    icon.textContent = '−';
+  }
+}
+</script>
+
+
+<!-- Script Accordion -->
+<script>
+  function toggleAccordion(index) {
+    const content = document.getElementById(`content${index}`);
+    const icon = document.getElementById(`icon${index}`);
+    const isHidden = content.classList.contains('hidden');
+
+    // Tutup semua accordion
+    for (let i = 1; i <= 3; i++) {
+      document.getElementById(`content${i}`).classList.add('hidden');
+      document.getElementById(`icon${i}`).textContent = '+';
+      icon.classList.remove('bg-blue-600', 'text-white');
+      icon.classList.add('bg-blue-600', 'text-white');
+    }
+
+    // Buka yang diklik
+    if (isHidden) {
+      content.classList.remove('hidden');
+      icon.textContent = '×';
+      icon.classList.remove('bg-blue-600');
+      icon.classList.add('bg-blue-600', 'text-white');
+    }
+  }
+</script>
+
+<!-- end bagian 3 -->
+
+<!-- bagian 4 -->
+ <section class="py-16 bg-white">
+  <div class="max-w-3xl mx-auto px-6 text-center">
+    <!-- Judul -->
+    <h2 class="text-2xl md:text-3xl font-bold text-gray-900 mb-8">
+      Bagaimana Kami Bisa Membantu Anda?
+    </h2>
+
+    <!-- Form -->
+    <form class="bg-white shadow-md rounded-2xl p-8 border border-gray-200 space-y-6">
+      
+      <!-- Email -->
+      <div class="text-left">
+        <label for="email" class="block text-gray-800 font-medium mb-2">Your Email Address</label>
+        <input
+          type="email"
+          id="email"
+          name="email"
+          placeholder="Enter your email"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          required
+        />
+      </div>
+
+      <!-- Subject -->
+      <div class="text-left">
+        <label for="subject" class="block text-gray-800 font-medium mb-2">Subject</label>
+        <input
+          type="text"
+          id="subject"
+          name="subject"
+          placeholder="Write the subject here"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none"
+          required
+        />
+      </div>
+
+      <!-- Description -->
+      <div class="text-left">
+        <label for="description" class="block text-gray-800 font-medium mb-2">Description</label>
+        <textarea
+          id="description"
+          name="description"
+          rows="5"
+          placeholder="Describe your issue or feedback"
+          class="w-full border border-gray-300 rounded-md px-4 py-2 focus:ring-2 focus:ring-blue-500 focus:outline-none resize-none"
+          required
+        ></textarea>
+      </div>
+
+      <!-- Tombol Submit -->
+      <div class="pt-4">
+        <button
+          type="submit"
+          class="bg-gradient-to-r from-blue-500 to-blue-700 text-white font-semibold px-8 py-2 rounded-full shadow-md hover:shadow-lg transform hover:scale-105 transition-all duration-300"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+<!-- end bagian 4 -->
+
+<!-- Footer -->
+<footer class="bg-white py-10">
+  <div class="max-w-5xl mx-auto px-6 grid grid-cols-1 md:grid-cols-3 gap-8 items-center">
+    
+    <!-- Logo -->
+    <div class="flex flex-col items-center md:items-start">
+      <img src="assets/bisamart1.png" alt="BisaMart" class="w-15 h-20 mb-2 ml-2">
+      <p class="font-bold text-lg">BisaMart</p>
+    </div>
+
+    <!-- Kontak -->
+    <div class="text-center md:text-left">
+      <h3 class="font-semibold mb-2">Terhubung Dengan Kami</h3>
+      <p class="text-sm text-gray-700">
+        PT. Mahira Technologies Indonesia <br>
+        18 Office Park, Lantai 25, Suite A 2, Jalan tb Simatupang Kav 18, Kel. Kebagusan, <br>
+        Kec. Pasar Minggu Jakarta Selatan, Provinsi DKI Jakarta, 12520
+      </p>
+      <div class="flex items-center justify-center md:justify-start mt-3 space-x-3">
+        <i class="bi bi-telephone-fill"></i>
+        <span class="text-sm">+62 812 812 8469</span>
+      </div>
+      <div class="flex items-center justify-center md:justify-start mt-1 space-x-3">
+        <i class="bi bi-envelope-fill"></i>
+        <span class="text-sm">support@bisamart.id</span>
+      </div>
+    </div>
+
+    <!-- Download -->
+    <div class="flex flex-col items-center md:items-end">
+      <h3 class="font-semibold mb-3">Unduh Bisamart</h3>
+      <div class="flex flex-col space-y-3">
+        <a href="#">
+          <img src="assets/app google.png" alt="Google Play" class="h-10">
+        </a>
+        <a href="#">
+          <img src="assets/app store.png" alt="App Store" class="h-10">
+        </a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+</body>
+</html>
